@@ -1,5 +1,4 @@
 
-🚆 UK ![Uploading A_modern_data_analytics_scene_showing_uk_train_tra_delpmaspu.png…]()
 #🚆 UK Train Rides Data Analysis
 
 ## 📌 Project Overview
