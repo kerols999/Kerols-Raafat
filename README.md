@@ -2,101 +2,146 @@
 
 ![Dashboard](A_modern_data_analytics_scene_showing_uk_train_tra_delpmaspu.png)
 
-## 📌 Project Overview
-This project analyzes UK train ticket transactions to uncover insights about ticket purchases, journey patterns, delays, and refund requests.  
+# 📊 Project Overview
 
-The dataset contains information about train rides including ticket details, journey schedules, payment methods, and delay reasons.
+The **UK Train Rides Analysis** project explores railway ticket transactions across the United Kingdom.
+The goal of this analysis is to understand **passenger behavior, ticket purchasing patterns, journey delays, and refund requests**.
 
-The goal of this project is to perform **data analysis and visualization** to understand customer behavior and railway performance.
+The dataset contains **31,653 train ticket transactions** with detailed information about journeys, ticket types, payments, and delay reasons.
 
----
+This project demonstrates skills in:
 
-## 📊 Dataset Information
-
-The dataset contains **31,653 records** and **18 columns** related to train ticket transactions.
-
-### Key Features
-
-- Transaction ID – Unique identifier for each ticket purchase
-- Date of Purchase – Date when the ticket was purchased
-- Time of Purchase – Time of purchase
-- Purchase Type – Online or station purchase
-- Payment Method – Credit Card, Contactless, etc.
-- Railcard – Type of rail discount card used
-- Ticket Class – Standard or First Class
-- Ticket Type – Single or Return ticket
-- Price – Ticket price
-- Departure Station – Starting station
-- Arrival Destination – Final destination
-- Date of Journey – Date of the trip
-- Departure Time – Scheduled departure time
-- Arrival Time – Scheduled arrival time
-- Actual Arrival Time – Real arrival time
-- Journey Status – On Time, Delayed, or Cancelled
-- Reason for Delay – Cause of delay
-- Refund Request – Whether the passenger requested a refund
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Dashboard Development
 
 ---
 
-## 🛠 Tools & Technologies
+# 📂 Dataset Description
 
-The following tools were used in this project:
+The dataset contains **18 columns** describing train ticket purchases and journey information.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- Power BI / Excel (for dashboard visualization)
+### Key Variables
 
----
-
-## 🔎 Data Analysis Process
-
-The project followed these steps:
-
-1. Data Loading  
-2. Data Cleaning  
-3. Handling Missing Values  
-4. Detecting Duplicates  
-5. Exploratory Data Analysis (EDA)  
-6. Data Visualization  
-7. Building Insights and KPIs  
-
----
-
-## 📈 Key Analysis Questions
-
-Some of the main questions explored in this project:
-
-- What are the most common **departure and destination stations**?
-- Which **payment methods** are most used?
-- What is the distribution of **ticket classes and ticket types**?
-- How often do **delays occur**?
-- What are the most common **reasons for delays**?
-- How many passengers **request refunds** after delays?
+| Column              | Description                          |
+| ------------------- | ------------------------------------ |
+| Transaction ID      | Unique ticket transaction identifier |
+| Date of Purchase    | Date when the ticket was purchased   |
+| Time of Purchase    | Time of purchase                     |
+| Purchase Type       | Online or Station purchase           |
+| Payment Method      | Payment type used                    |
+| Railcard            | Rail discount card                   |
+| Ticket Class        | Standard or First Class              |
+| Ticket Type         | Single or Return                     |
+| Price               | Ticket price                         |
+| Departure Station   | Starting station                     |
+| Arrival Destination | Destination station                  |
+| Date of Journey     | Date of travel                       |
+| Departure Time      | Scheduled departure                  |
+| Arrival Time        | Scheduled arrival                    |
+| Actual Arrival Time | Real arrival time                    |
+| Journey Status      | On Time, Delayed, Cancelled          |
+| Reason for Delay    | Cause of delay                       |
+| Refund Request      | Whether a refund was requested       |
 
 ---
 
-## 📊 Dashboard Insights
+# 🛠 Tools Used
 
-The dashboard highlights:
-
-- Total ticket sales
-- Average ticket price
-- Number of delayed journeys
-- Refund request rate
-- Most popular routes
-- Ticket class distribution
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Power BI / Excel (Dashboard)
 
 ---
 
-## 🚀 How to Run the Project
+# 🔎 Data Analysis Steps
 
-1. Download the dataset.
-2. Open the Jupyter Notebook.
-3. Install required libraries:
+1️⃣ Data Loading
+2️⃣ Data Cleaning
+3️⃣ Handling Missing Values
+4️⃣ Removing Duplicates
+5️⃣ Exploratory Data Analysis (EDA)
+6️⃣ Data Visualization
+7️⃣ Dashboard Creation
 
-```bash
+---
+
+# 📈 Key Performance Indicators (KPIs)
+
+The analysis focuses on the following metrics:
+
+* 🎫 Total Ticket Sales
+* 💰 Average Ticket Price
+* 🚆 Most Popular Routes
+* ⏱ Delayed Journeys
+* 🔁 Refund Request Rate
+* 🎟 Ticket Class Distribution
+
+---
+
+# 📊 Example Analysis Questions
+
+This project answers several important questions:
+
+* Which **stations have the highest passenger traffic**?
+* What are the most common **ticket types purchased**?
+* Which **payment methods** are most used?
+* What percentage of journeys are **delayed**?
+* What are the **main reasons for train delays**?
+* How often do passengers **request refunds**?
+
+---
+
+# 📊 Dashboard
+
+The dashboard visualizes key insights such as:
+
+* Ticket sales distribution
+* Journey status breakdown
+* Delay reasons
+* Most popular routes
+* Ticket class analysis
+
+*(Dashboard preview can be added here)*
+
+---
+
+# 🚀 How to Run the Project
+
+Clone the repository:
+
+```
+git clone https://github.com/yourusername/UK-Train-Rides-Analysis.git
+```
+
+Install required libraries:
+
+```
 pip install pandas numpy matplotlib seaborn
+```
+
+Run the Jupyter Notebook to reproduce the analysis.
+
+---
+
+# 📁 Project Structure
+
+```
+UK-Train-Rides-Analysis
+│
+├── railway.csv
+├── #######
+├── #######
+├── #######
+└── #######
+```
+
+---
+
+⭐ If you found this project useful, feel free to **star the repository**.
+
