@@ -1,4 +1,6 @@
+## 📊 Dashboard Preview
 
+![Dashboard](dashboard.png)
 #🚆 UK Train Rides Data Analysis
 
 ## 📌 Project Overview
