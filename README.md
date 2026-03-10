@@ -1,7 +1,6 @@
-## 📊 Dashboard Preview
+#🚆 UK Train Rides Data Analysis
 
 ![Dashboard](A_modern_data_analytics_scene_showing_uk_train_tra_delpmaspu.png)
-#🚆 UK Train Rides Data Analysis
 
 ## 📌 Project Overview
 This project analyzes UK train ticket transactions to uncover insights about ticket purchases, journey patterns, delays, and refund requests.  
