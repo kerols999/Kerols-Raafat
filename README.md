@@ -62,12 +62,19 @@ The dataset contains **18 columns** describing train ticket purchases and journe
 # 🔎 Data Analysis Steps
 
 1️⃣ Data Loading
+
 2️⃣ Data Cleaning
+
 3️⃣ Handling Missing Values
+
 4️⃣ Removing Duplicates
+
 5️⃣ Exploratory Data Analysis (EDA)
+
 6️⃣ Data Visualization
+
 7️⃣ Dashboard Creation
+
 
 ---
 
